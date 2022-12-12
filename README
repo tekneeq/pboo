@@ -1,0 +1,22 @@
+
+
+### pboo
+
+APIs
+    Add items to user
+        /<user_id>/<item_id>
+
+Data Model
+    User
+        - a list of Items
+
+    Item
+        - url
+        - price_list: a list of price:date
+
+    Scanner
+        * iterates though all Items and append to price_list
+
+
+
+### pmoo
